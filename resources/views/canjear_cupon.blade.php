@@ -10,48 +10,7 @@
         <h5>Jefferson Linares</h5>
     </button>
 </div><br>
-<div id="bloque3Padre">
-<div id="bloque3" class="row row-cols-3">
-    
-    <div class="col">
-        <img id="principal" src="{{ asset('ham.jpg') }}" alt="">
-    </div>
-    <div class="col">
-        <div class="container">
-            <div class="row row-cols-1">
-                <div class="col">
-                    <img id="subham" src="{{ asset('ham.jpg') }}" alt="">
-                </div>
-                <div class="col">
-                    <img id="subham" src="{{ asset('ham.jpg') }}" alt="">
-                </div>
-                <div class="col">
-                    <img id="subham" src="{{ asset('ham.jpg') }}" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-     
-        <h2>Descripción del cupón</h2>
-        <p>isfruta de una noche de amigos con una deliciosa
-            hamburguesa + gaseosa fría y relájate con unos
-            temas de tus artistas favoritos con nuestra música
-            en vivo.
-        </p>
-        <h2>Incluye</h2>
-        <p>
-            Hamburguesas McDonalds + Gaseosa 350ml + papas
-            medianas
-        </p>
-        <h2>Términos y condiciones</h2>
-        <p>
-            Cupón valida hasta el 25 de abril de 2021
-        </p>
-        <button id="adquirir_cupon">Adquirir cupón</button>
-    </div>
-</div>
-</div>
+
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid color1">
@@ -114,7 +73,7 @@
         </div>
     </div>
 </div>
-
+ 
 <div class="container">
     <form action="">
         <div class="row row-cols-4">
@@ -145,8 +104,50 @@
             <button id="buscar">buscar</button>
         </center>
     </form>
+    <div id="bloque3Padre" >
+        <div id="bloque3" class="row row-cols-3">
+            
+            <div class="col">
+                <img id="principal" src="{{ asset('ham.jpg') }}" alt="">
+            </div>
+            <div class="col">
+                <div class="container">
+                    <div class="row row-cols-1">
+                        <div class="col">
+                            <img id="subham" src="{{ asset('ham.jpg') }}" alt="">
+                        </div>
+                        <div class="col">
+                            <img id="subham" src="{{ asset('ham.jpg') }}" alt="">
+                        </div>
+                        <div class="col">
+                            <img id="subham" src="{{ asset('ham.jpg') }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+             
+                <h2>Descripción del cupón</h2>
+                <p>isfruta de una noche de amigos con una deliciosa
+                    hamburguesa + gaseosa fría y relájate con unos
+                    temas de tus artistas favoritos con nuestra música
+                    en vivo.
+                </p>
+                <h2>Incluye</h2>
+                <p>
+                    Hamburguesas McDonalds + Gaseosa 350ml + papas
+                    medianas
+                </p>
+                <h2>Términos y condiciones</h2>
+                <p>
+                    Cupón valida hasta el 25 de abril de 2021
+                </p>
+                <button id="adquirir_cupon">Adquirir cupón</button>
+            </div>
+        </div>
+        </div>
 
-    <div class="container my-5">
+    <div class="container my-5" >
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card h-100 sombras">
@@ -313,9 +314,13 @@
         height: 11%
     }
     #bloque3Padre{
-        background-color: black;
-  width: 100%;
-  padding: 10%;
+        position: absolute;
+        background: black;
+        opacity:0.5;
+        color: white;
+        width: 100%; 
+       padding: 10%;
+
   text-align:center;
   
     }
