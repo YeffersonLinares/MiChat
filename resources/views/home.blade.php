@@ -44,7 +44,7 @@
         </div>
     </nav>
 
-    <div class="container my-5">
+    <div class="container-fluid my-5">
         <div class="row">
             <div class="col">
                 <a href="{{ route('comidas') }}">
@@ -87,10 +87,10 @@
     </div>
 
     <div class="container my-5">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
+        <div class="row cols-1     cols-md-3    g-4">
+            <div class="col " style="margin-right: 4%">
                 <div class="card h-100 sombras">
-                    <button id="boton1"><label>★</label>4.5</button>
+                    <button id="boton1"  style="color : white; margin-left: 70%  ;     font-size: 20px; "   class="btn btn-primary"><label style="color:#efb810">★ </label>  4.8</button>
                     <a href="#">
                         <img src="{{ asset('ham.jpg') }}" class="card-img-top" alt="...">
                     </a>
@@ -105,9 +105,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col " style="margin-right: 4%">
                 <div class="card h-100 sombras">
-                    <button id="boton1"><label>★ </label>4.5</button>
+                    <button id="boton1"  style="color : white; margin-left: 70%  ;     font-size: 20px; "   class="btn btn-primary"><label style="color:#efb810">★ </label>  4.8</button>
                     <a href="#"><img src="{{ asset('ham.jpg') }}" class="card-img-top" alt="..."></a>
                     <div style="color: black;" class="circulo4 sombras">
                         <img id="imagenes" src="{{ asset('imagenes/mcdonalds.png') }}" alt="">
@@ -120,7 +120,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 sombras">
-                    <button id="boton1"><label>★ </label>4.5</button>
+                    <button id="boton1"  style="color : white; margin-left: 70%  ;     font-size: 20px; "   class="btn btn-primary"><label style="color:#efb810">★ </label>  4.8</button>
                     <a href="#"><img src="{{ asset('ham.jpg') }}" class="card-img-top" alt="..."></a>
                     <div style="color: black;" class="circulo4 sombras">
                         <img id="imagenes" src="{{ asset('imagenes/mcdonalds.png') }}" alt="">
@@ -146,10 +146,10 @@
     </div>
 
     <div class="container my-5">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
+        <div class="row cols-1 cols-md-3 g-4">
+            <div class="col " style="margin-right: 4%">
                 <div class="card h-100 sombras">
-                    <button id="boton1"><label>★ </label>4.5</button>
+                    <button id="boton1"  style="color : white; margin-left: 70%  ;     font-size: 20px; "   class="btn btn-primary"><label style="color:#efb810">★ </label>  4.8</button>
                     <a href="#"><img src="{{ asset('playa.jpg') }}" class="card-img-top" alt="..."></a>
                     <div style="color: black;" class="circulo3 sombras">
                         <img id="imagenes" src="{{ asset('imagenes/mcdonalds.png') }}" alt="">
@@ -162,9 +162,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div  class="col " style="margin-right: 4%">
                 <div class="card h-100 sombras">
-                    <button id="boton1"><label>★ </label>4.5</button>
+                    <button id="boton1"  style="color : white; margin-left: 70%  ;     font-size: 20px; "   class="btn btn-primary"><label style="color:#efb810">★ </label>  4.8</button>
                     <a href="#"><img src="{{ asset('playa.jpg') }}" class="card-img-top" alt="..."></a>
                     <div style="color: black;" class="circulo3 sombras">
                         <img id="imagenes" src="{{ asset('imagenes/mcdonalds.png') }}" alt="">
@@ -177,7 +177,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 sombras">
-                    <button id="boton1"><label>★ </label>4.5</button>
+                    <button id="boton1"  style="color : white; margin-left: 70%  ;     font-size: 20px; "   class="btn btn-primary"><label style="color:#efb810">★ </label>  4.8</button>
                     <a href="#"><img src="{{ asset('playa.jpg') }}" class="card-img-top" alt="..."></a>
                     <div style="color: black;" class="circulo3 sombras">
                         <img id="imagenes" src="{{ asset('imagenes/mcdonalds.png') }}" alt="">
@@ -203,10 +203,10 @@
     </div>
 
     <div class="container my-5">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
+        <div class="row cols-1 cols-md-3 g-4">
+            <div class="col " style="margin-right: 4%">
                 <div class="card h-100 sombras">
-                    <button id="boton1"><label>★ </label>4.5</button>
+                    <button id="boton1"  style="color : white; margin-left: 70%  ;     font-size: 20px; "   class="btn btn-primary"><label style="color:#efb810">★ </label>  4.8</button>
                     <a href="#"><img src="{{ asset('falabella.jpg') }}" class="card-img-top" alt="..."></a>
                     <div style="color: black;" class="circulo3 sombras">
                         <img id="imagenes" src="{{ asset('imagenes/mcdonalds.png') }}" alt="">
@@ -219,9 +219,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col " style="margin-right: 4%">
                 <div class="card h-100 sombras">
-                    <button id="boton1"><label>★ </label>4.5</button>
+                    <button id="boton1"  style="color : white; margin-left: 70%  ;     font-size: 20px; "   class="btn btn-primary"><label style="color:#efb810">★ </label>  4.8</button>
                     <a href="#"><img src="{{ asset('falabella.jpg') }}" class="card-img-top" alt="..."></a>
                     <div style="color: black;" class="circulo3 sombras">
                         <img id="imagenes" src="{{ asset('imagenes/mcdonalds.png') }}" alt="">
@@ -234,7 +234,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 sombras">
-                    <button id="boton1"><label>★ </label>4.5</button>
+                    <button id="boton1"  style="color : white; margin-left: 70%  ;     font-size: 20px; "   class="btn btn-primary"><label style="color:#efb810">★ </label>  4.8</button>
                     <a href="#"><img src="{{ asset('falabella.jpg') }}" class="card-img-top" alt="..."></a>
                     <div style="color: black;" class="circulo3 sombras">
                         <img id="imagenes" src="{{ asset('imagenes/mcdonalds.png') }}" alt="">
@@ -378,13 +378,7 @@
     }
 
     #boton1 {
-        width: 100px;
-        height: auto;
-        margin-left: 255px;
-        margin-top: -2px;
-        position: absolute;
-        color: white;
-        background: #34b6a7;
+       
     }
 
     #ver_mas {
