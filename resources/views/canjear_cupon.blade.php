@@ -11,6 +11,45 @@
     </button>
 </div><br>
 
+<div id="bloque3" class="row row-cols-3">
+    <div class="col">
+        <img id="principal" src="{{ asset('ham.jpg') }}" alt="">
+    </div>
+    <div class="col">
+        <div class="container">
+            <div class="row row-cols-1">
+                <div class="col">
+                    <img id="subham" src="{{ asset('ham.jpg') }}" alt="">
+                </div>
+                <div class="col">
+                    <img id="subham" src="{{ asset('ham.jpg') }}" alt="">
+                </div>
+                <div class="col">
+                    <img id="subham" src="{{ asset('ham.jpg') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h2>Descripción del cupón</h2>
+        <p>isfruta de una noche de amigos con una deliciosa
+            hamburguesa + gaseosa fría y relájate con unos
+            temas de tus artistas favoritos con nuestra música
+            en vivo.
+        </p>
+        <h2>Incluye</h2>
+        <p>
+            Hamburguesas McDonalds + Gaseosa 350ml + papas
+            medianas
+        </p>
+        <h2>Términos y condiciones</h2>
+        <p>
+            Cupón valida hasta el 25 de abril de 2021
+        </p>
+        <button id="adquirir_cupon">Adquirir cupón</button>
+    </div>
+</div>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid color1">
         <a class="navbar-brand" href=" {{ route('home') }}">
@@ -109,7 +148,9 @@
             <div class="col">
                 <div class="card h-100 sombras">
                     <button id="boton1"><label>★ </label>4.5</button>
-                    <a href="{{ route('canjear_cupon') }}"><img src="{{ asset('ham.jpg') }}" class="card-img-top" alt="..."></a>
+                    <a href="{{ route('canjear_cupon') }}"><img src="{{ asset('ham.jpg') }}" class="card-img-top"
+                            alt="...">
+                    </a>
                     <div style="color: black;" class="circulo3 sombras">
                         <img id="imagenes" src="{{ asset('imagenes/mcdonalds.png') }}" alt="">
                     </div>
@@ -250,6 +291,31 @@
 </div>
 
 <style>
+    #subham {
+        height: 116px;
+    }
+
+    #principal {
+        height: 350px;
+        width: 109%;
+        border-radius: 8px;
+    }
+
+    #adquirir_cupon {
+        background: #34b6a4;
+        border-radius: 6px;
+        border: none;
+        color: white;
+        width: 53%;
+        height: 11%
+    }
+
+    #bloque3 {
+        background: grey;
+        height: 69%;
+        width: 100%;
+    }
+
     .boton-head {
         color: #34b6a7;
         background: white;
