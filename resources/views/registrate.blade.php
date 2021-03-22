@@ -5,15 +5,15 @@
 <div class="circulo2 color2">
     <img src="{{ asset('imagenes/enmascarar.png') }}" alt="#" class="enmascarar">
 </div>
-<div>
+<div class="roboto">
     <button id="boton2">
         <h5>Iniciar sesión</h5>
     </button>
 </div><br>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light roboto">
     <div class="container-fluid color1">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{{ route('home') }}">
             <h5 id="navb">Inicio</h5>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
+                    <a class="nav-link active" aria-current="page" href="https://obolobo.tv/">
                         <h5 id="navb">Obolobo TV</h5>
                     </a>
                 </li>
@@ -42,10 +42,10 @@
     </div>
 </nav>
 
-<div class="row">
-    <div class="col-sm-4 colorear">
-        <h2 class="gris-oscuro" id="titulo">Regístrate</h2>
-        <h5 class="gris-oscuro">¡Empieza a adquirir cupones con Obolobo!</h5>
+<div class="row roboto">
+    <div class="col-sm-4">
+        <h2 id="titulo">Regístrate</h2>
+        <h5>¡Empieza a adquirir cupones con Obolobo!</h5>
         <form>
             <div class="form-group">
                 <label class="gris" for="formGroupExampleInput">Nombres y apellidos</label>
@@ -88,12 +88,8 @@
     <div class="col-sm-8">
         <img class="imagen" src="{{ asset('imagenes/registrate.jpg') }}" alt="">
     </div>
-
 </div>
 
-
-{{-- <div id="bloque">
-</div> --}}
 <style>
     .enmascarar {
         margin-top: -5px;
@@ -112,7 +108,6 @@
 
     h2,
     h5 {
-        font-family: 'Roboto';
         font-weight: bold;
         margin-top: 110px;
         margin-left: 13%;
@@ -120,7 +115,6 @@
 
     label {
         margin-left: 13%;
-        font-family: roboto;
         margin-top: 8px;
     }
 
@@ -174,7 +168,7 @@
 
 
     .gris {
-        color: #ADA7A5;
+        color: #6D6D6D;
     }
 
     .sombras {
