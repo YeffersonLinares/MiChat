@@ -4,16 +4,16 @@
 <div class="circulo2 color2">
     <img src="{{ asset('imagenes/enmascarar.png') }}" alt="#" class="enmascarar">
 </div>
-<div>
+<div class="roboto">
     <form action="{{ route('login') }}" method="get">
         <button type="submit" id="boton2">
-            <h5>Iniciar sesión</h5>
+            <h5 class="roboto">Iniciar sesión</h5>
         </button>
     </form>
 </div>
-<p id="registrarse">¿No tienes cuenta? <a href="{{ route('registrate') }}">Regístrate</a></p>
-<div class="my-5">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<p id="registrarse" class="roboto">¿No tienes cuenta? <a class="roboto_bold" href="{{ route('registrate') }}">Regístrate</a></p>
+<div class="my-5 roboto">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light roboto">
         <div class="container-fluid color1">
             <a class="navbar-brand" href="#">
                 <h5 id="navb">Inicio</h5>
@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">
+                        <a class="nav-link active" aria-current="page" href="https://obolobo.tv/">
                             <h5 id="navb">Obolobo TV</h5>
                         </a>
                     </li>
@@ -82,7 +82,7 @@
         <div class="circulo color1">
             <img id="restaurant" src="{{ asset('imagenes/restaurant.png') }}" alt="">
         </div>
-        <h3 id="titulo2">Comidas</h3>
+        <h3 class="roboto" id="titulo2">Comidas</h3>
         <button id="ver_mas">Ver más cupones ></button>
     </div>
 
@@ -141,7 +141,7 @@
         <div class="circulo color1">
             <img id="plane" src="{{ asset('imagenes/plane.png') }}" alt="#">
         </div>
-        <h3 id="titulo2">Viajes y turismo</h3>
+        <h3 class="roboto_bold" id="titulo2">Viajes y turismo</h3>
         <button id="ver_mas">Ver más cupones ></button>
     </div>
 
@@ -198,7 +198,7 @@
         <div class="circulo color1">
             <img id="product" src="{{ asset('imagenes/product.png') }}" alt="#">
         </div>
-        <h3 id="titulo2">Productos</h3>
+        <h3 class="roboto_bold" id="titulo2">Productos</h3>
         <button id="ver_mas">Ver más cupones ></button>
     </div>
 
@@ -211,9 +211,9 @@
                     <div style="color: black;" class="circulo3 sombras">
                         <img id="imagenes" src="{{ asset('imagenes/mcdonalds.png') }}" alt="">
                     </div>
-                    <button class="boton6 sombras">30% de descuento</button>
+                    <button class="roboto_bold boton6 sombras">30% de descuento</button>
                     <div class="card-body">
-                        <p class="card-text gris">Cupón de descuento en nuestros puntos de
+                        <p class="roboto_bold card-text gris">Cupón de descuento en nuestros puntos de
                             comida Mc Donalds
                             Aplica términos y condiciones </p>
                     </div>
@@ -377,10 +377,6 @@
         background: white;
     }
 
-    #boton1 {
-       
-    }
-
     #ver_mas {
         margin-left: 1082px;
         color: white;
@@ -401,7 +397,7 @@
     #titulo2 {
         margin-top: -20px;
         margin-left: 190px;
-        color: grey;
+        color: #D6D6D6;
         font-weight: bold;
     }
 

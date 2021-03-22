@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -19,24 +19,24 @@
             <div class="row align-items-center">
                 <div class="col-sm">
                     <h5 class="paracss">
-                        <p class=" font-weight-bold">Términos y condiciones</p>
-                        <p><small>Políticas de privacidad</small></p>
-                        <p><small>Términos y condiciones </small></p>
-                        <p><small>Ayuda</small></p>
+                        <p class="roboto negrilla">Términos y condiciones</p>
+                        <p><small class="">Políticas de privacidad</small></p>
+                        <p><small class="">Términos y condiciones </small></p>
+                        <p><small class="">Ayuda</small></p>
                     </h5>
                 </div>
                 <div class="col-sm">
                     <h5 class="paracss">
-                        <p class=" font-weight-bold">Obolobo</p>
-                        <p><small>¿Quiénes somos?</small></p>
-                        <p><small>Obolobo TV</small></p>
-                        <p><small>Empresas</small></p>
+                        <p class="roboto negrilla">Obolobo</p>
+                        <p><small class="">¿Quiénes somos?</small></p>
+                        <p><small class="">Obolobo TV</small></p>
+                        <p><small class="">Empresas</small></p>
 
                     </h5>
                 </div>
                 <div class="col-sm ">
                     <h5 class="paracss">
-                        <p class=" font-weight-bold">Información de contacto</p>
+                        <p class="roboto negrilla">Información de contacto</p>
                         <p><small>+56 123456789</small></p>
                         <p><small>Calle 123 Comuna 123</small></p>
                         <p><small>soporte@obolobo.com</small></p>
@@ -73,6 +73,14 @@
 </html>
 
 <style>
+    .negrilla {
+        font-weight: bold;
+    }
+
+    .roboto {
+        font-family: 'Roboto', sans-serif;
+    }
+
     .icono {
         height: 50px;
         width: 50px;
@@ -184,6 +192,7 @@
         position: absolute;
         color: white;
         background: #34b6a7;
+        border-color: #34b6a7;
     }
 
     #ver_mas {
@@ -207,7 +216,7 @@
         margin-top: -20px;
         margin-left: 190px;
         color: grey;
-        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
     }
 
     .fuente {
