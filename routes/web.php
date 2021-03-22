@@ -39,4 +39,4 @@ Route::get('/login', function () {
 
 Route::get('/canjear', function () {
     return view('canjear_cupon');
-});
+})->name('canjear_cupon');
