@@ -10,8 +10,9 @@
         <h5>Jefferson Linares</h5>
     </button>
 </div><br>
-
+<div id="bloque3Padre">
 <div id="bloque3" class="row row-cols-3">
+    
     <div class="col">
         <img id="principal" src="{{ asset('ham.jpg') }}" alt="">
     </div>
@@ -31,6 +32,7 @@
         </div>
     </div>
     <div class="col">
+     
         <h2>Descripción del cupón</h2>
         <p>isfruta de una noche de amigos con una deliciosa
             hamburguesa + gaseosa fría y relájate con unos
@@ -48,6 +50,7 @@
         </p>
         <button id="adquirir_cupon">Adquirir cupón</button>
     </div>
+</div>
 </div>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -309,11 +312,20 @@
         width: 53%;
         height: 11%
     }
+    #bloque3Padre{
+        background-color: black;
+  width: 100%;
+  padding: 10%;
+  text-align:center;
+  
+    }
 
     #bloque3 {
-        background: grey;
-        height: 69%;
-        width: 100%;
+     
+        background-color: white;
+  height: 500px;
+  width: 90%;
+  margin: 0 auto;/*esto fue lo que se agregó*/
     }
 
     .boton-head {
